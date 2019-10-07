@@ -1,0 +1,15 @@
+{
+    "name": "Cooper Dumars",
+    "description": "Hi! I'm Cooper, and this is my website!",
+    "tagline": "I'm a high school student and baritone saxophonist currently interested in Jazz and iOS tweak development.",
+    "currentStatus": {
+      "name": "Too Many Zooz",
+      "link": "http://toomanyzooz.com/"
+    },
+    "socials": [
+      { "service": "twitter", "url": "https://twitter.com/cwdumars" },
+      { "service": "github", "url": "https://github.com/cdumars" },
+      { "service": "email-fill", "url": "mailto:cooper.dumars@gmail.com" }
+    ]
+  }
+  
