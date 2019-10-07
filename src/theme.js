@@ -55,7 +55,8 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-overflow-scrolling: touch;
     font-family: ${fonts.primary};
 
-    background: linear-gradient(-55deg, ${colors.teal[5]}, ${colors.blue[6]}, ${colors.pink[6]}, ${colors.red[4]});
+    background: linear-gradient(-55deg, ${colors.teal[5]}, \
+       ${colors.blue[6]}, ${colors.pink[6]}, ${colors.red[4]});
     background-size: 400% 400%;
     animation: gradientBG 30s ease infinite;
   }

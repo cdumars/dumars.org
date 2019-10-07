@@ -13,7 +13,7 @@ const Avatar = styled.img`
 
 export default () => (
     <>
-        <Avatar src="https://github.com/cdumars.png" />
+        <Avatar src="../../static/face-transparent.png" />
         <Heading children={name} />
         <Subheading>
             {description}
