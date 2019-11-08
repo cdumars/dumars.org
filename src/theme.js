@@ -57,10 +57,10 @@ export const GlobalStyle = createGlobalStyle`
 
     background: linear-gradient(-55deg, ${colors.teal[5]}, \
        ${colors.blue[6]}, ${colors.pink[6]}, ${colors.red[4]});
-    background-size: 400% 400%;
-    animation: gradientBG 30s ease infinite;
+    background-size: 100% 100%;
+ /*   animation: gradientBG 30s ease infinite; */
   }
-  @keyframes gradientBG {
+/*  @keyframes gradientBG {
     0% {
       background-position: 0% 50%;
     }
@@ -70,5 +70,5 @@ export const GlobalStyle = createGlobalStyle`
     100% {
       background-position: 0% 50%;
     }
-  }
+  } */
 `
