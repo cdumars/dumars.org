@@ -19,8 +19,6 @@ const fontSizes = {
 }
 const mediaQueries = {
   sm: '@media (max-width: 32em)',
-  fix: '@media (max-width: 480px)',
-  fix2: '@media (min-width: 481px)'
 }
 
 export const theme = {
@@ -59,7 +57,7 @@ export const GlobalStyle = createGlobalStyle`
 
     background: linear-gradient(-55deg, ${colors.teal[5]}, \
        ${colors.blue[6]}, ${colors.pink[6]}, ${colors.red[4]}) no-repeat center center/cover;
-    background-size: 100% 100%;
+    background-size: 100vw 125vh;
  /*   animation: gradientBG 30s ease infinite; */
   }
 /*  @keyframes gradientBG {
@@ -74,6 +72,7 @@ export const GlobalStyle = createGlobalStyle`
     }
   } */
   .container {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;

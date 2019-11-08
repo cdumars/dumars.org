@@ -23,16 +23,6 @@ const Wrapper = styled.div`
   ${theme.mediaQueries.sm} {
     padding: 1rem;
   }
-  ${theme.mediaQueries.fix} {
-    .container {
-      height: 100%;
-    }
-  }
-  ${theme.mediaQueries.fix2} {
-    .container {
-      height: 100vh;
-    }
-  }
 `
 
 export default ({ children }) => {
