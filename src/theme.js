@@ -71,4 +71,10 @@ export const GlobalStyle = createGlobalStyle`
       background-position: 0% 50%;
     }
   } */
+  .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `

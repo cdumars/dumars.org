@@ -19,7 +19,6 @@ const Wrapper = styled.div`
   margin: auto;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.125);
   background-color: #00000022;
-
   ${theme.mediaQueries.sm} {
     padding: 1rem;
   }
