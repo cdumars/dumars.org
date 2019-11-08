@@ -1,7 +1,11 @@
 {
     "name": "Cooper Dumars",
     "description": "Hi! I'm Cooper, and this is my website!",
+<<<<<<< HEAD
     "tagline": "I'm a high school student currently interested in iOS tweak development.",
+=======
+    "tagline": "I'm a high school student and saxophonist currently interested in Jazz and Web development.",
+>>>>>>> e1896e0ae2e8fd679b28511287432c8f3965e1dd
     "currentStatus": {
       "name": "Too Many Zooz",
       "link": "http://toomanyzooz.com/"
