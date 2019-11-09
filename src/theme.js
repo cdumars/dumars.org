@@ -29,6 +29,16 @@ export const theme = {
 }
 
 export const GlobalStyle = createGlobalStyle`
+  @media (min-width: 481px) {
+    .container {
+      height: 100vh;
+    }
+  }
+  @media (max-height: 768px) {
+    .container { 
+      height: 100%;
+    }
+  }
   * {
     box-sizing: border-box;
     font-weight: inherit;
@@ -55,26 +65,14 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-overflow-scrolling: touch;
     font-family: ${fonts.primary};
 
-    background: linear-gradient(-55deg, ${colors.teal[5]}, \
-       ${colors.blue[6]}, ${colors.pink[6]}, ${colors.red[4]}) no-repeat center center/cover;
-    background-size: 100vw 125vh;
- /*   animation: gradientBG 30s ease infinite; */
+    
   }
-/*  @keyframes gradientBG {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  } */
   .container {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(-55deg, ${colors.teal[5]}, \
+      ${colors.blue[6]}, ${colors.pink[6]}, ${colors.red[4]}) no-repeat center center/cover;
+   background-size: 100%;
   }
 `

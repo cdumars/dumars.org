@@ -22,6 +22,7 @@ const Wrapper = styled.div`
   border-radius: 0.5rem;
   ${theme.mediaQueries.sm} {
     padding: 1rem;
+    border-radius: 0;
   }
 `
 
